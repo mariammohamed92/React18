@@ -1,0 +1,48 @@
+body{
+  background-color: rgb(9, 28, 69);
+  color: white;
+}
+:root{
+  --bg-color: #131722;
+  --main-font: 'Montserrat Alternates', sans-serif;
+ --ligth-bg:#24baef;
+ --font-color:#fff;
+ }
+ 
+.vote{
+  background-color: var(--ligth-bg);
+  
+}
+
+.cursor-pointer{
+  cursor: pointer;
+}
+.imglayer{
+  position: absolute;
+  top: 1%;
+  left: 3px;
+  right: 3px;
+  bottom: 16%;
+  background: rgba(21, 21, 21, 0.6);
+  opacity: 0;
+  text-align: center;
+}
+.imglayer:hover {
+  opacity: 1;
+}
+/* h6 */
+.imginfo{
+  position: absolute;
+  width: 100%;
+  top: 30%;
+  left: 0;
+  transform: translate(0%, -70%);
+}
+
+.imginfo h6{
+  margin-top: 100%;
+  font-size: 30px;
+  font-weight: 700;
+  color: white;
+
+}
